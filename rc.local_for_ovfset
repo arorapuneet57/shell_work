@@ -1,0 +1,4 @@
+# change the permission of rc.local to chmod +x rc.local
+# then during boot time ovf_set.sh file will be executed
+
+bash /opt/ovfset/ovf_set.sh >> /opt/ovfset/run.log 2>&1
