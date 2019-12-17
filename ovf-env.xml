@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Environment
+     xmlns="http://schemas.dmtf.org/ovf/environment/1"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xmlns:oe="http://schemas.dmtf.org/ovf/environment/1"
+     xmlns:ve="http://www.vmware.com/schema/ovfenv"
+     oe:id=""
+     ve:vCenterId="vm-302">
+   <PlatformSection>
+      <Kind>VMware ESXi</Kind>
+      <Version>6.7.0</Version>
+      <Vendor>VMware, Inc.</Vendor>
+      <Locale>en</Locale>
+   </PlatformSection>
+   <PropertySection>
+         <Property oe:key="bh-gw" oe:value="100.102.33.129"/>
+         <Property oe:key="bh-ip" oe:value="100.102.33.171"/>
+         <Property oe:key="bh-mtu" oe:value="1500"/>
+         <Property oe:key="bh-nics" oe:value="00:50:56:97:6b:ad"/>
+         <Property oe:key="bh-prefix" oe:value="26"/>
+         <Property oe:key="bh-s1-intf" oe:value="ens224"/>
+         <Property oe:key="ems-fqdn" oe:value="UHN4ttALEM000030.rmn.local"/>
+         <Property oe:key="ems-snmp-port" oe:value="1622"/>
+         <Property oe:key="enb-id" oe:value="278656"/>
+         <Property oe:key="fqdn" oe:value="UHN1TKY100401123.rmn.local"/>
+         <Property oe:key="hostname" oe:value="UHN1TKY100401123"/>
+         <Property oe:key="mgmt-gw" oe:value="10.118.79.1"/>
+         <Property oe:key="mgmt-intf" oe:value="ens256"/>
+         <Property oe:key="mgmt-ip" oe:value="10.118.79.33"/>
+         <Property oe:key="mgmt-mtu" oe:value="1500"/>
+         <Property oe:key="mgmt-nics" oe:value="00:50:56:97:ec:8c"/>
+         <Property oe:key="mgmt-prefix" oe:value="26"/>
+         <Property oe:key="mh-gw" oe:value="192.168.172.253"/>
+         <Property oe:key="mh-intf" oe:value="ens192"/>
+         <Property oe:key="mh-ip" oe:value="192.168.172.21"/>
+         <Property oe:key="mh-mtu" oe:value="1500"/>
+         <Property oe:key="mh-nics" oe:value="00:50:56:97:d1:b6"/>
+         <Property oe:key="mh-prefix" oe:value="26"/>
+         <Property oe:key="ns-ip" oe:value="10.118.80.44"/>
+         <Property oe:key="ntp-ip" oe:value="10.118.80.22"/>
+         <Property oe:key="nw-type" oe:value="V4"/>
+         <Property oe:key="time-zone" oe:value="EST/US"/>
+         <Property oe:key="vcu-profile" oe:value="macro_profile"/>
+   </PropertySection>
+   <ve:EthernetAdapterSection>
+      <ve:Adapter ve:mac="00:50:56:97:c8:d2" ve:network="DPortGroup_180" ve:unitNumber="7"/>
+   </ve:EthernetAdapterSection>
+</Environment>
